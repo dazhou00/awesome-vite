@@ -304,97 +304,97 @@ Use the "Table of Contents" menu on the top-right corner to explore the list.
 
 #### Loaders
 
-- [unplugin-icons](https://github.com/antfu/unplugin-icons) - Access thousands of icons as components.
-- [vite-imagetools](https://github.com/JonasKruckenberg/vite-imagetools) - Load and transform images using url query parameters.
-- [vite-plugin-radar](https://github.com/stafyniaksacha/vite-plugin-radar) - All in one analytics loader (with 7+ providers supported).
-- [vite-plugin-glsl](https://github.com/UstymUkhman/vite-plugin-glsl) - Import shader file chunks.
-- [vite-plugin-svgo](https://github.com/r3dDoX/vite-plugin-svgo) - Load SVGs as plain string and transform with SVGO library.
-- [vite-plugin-remark-rehype](https://github.com/y-nk/vite-plugin-remark-rehype) - Loads and transform markdown files using the unified ecosystem.
-- [vite-plugin-php](https://github.com/donnikitos/vite-plugin-php) - Load and process PHP-entry files instead of default index.html.
-- [vite-plugin-lqip](https://github.com/drwpow/vite-plugin-lqip) - Generate low quality image placeholders (LQIP).
-- [vite-plugin-ms-clarity](https://github.com/KermanX/vite-plugin-ms-clarity) - Inject the Microsoft Clarity script to `index.html`.
-- [@cyco130/vite-plugin-mdx](https://github.com/cyco130/vite-plugin-mdx) - Import MDX.
-- [vite-awesome-svg-loader](https://github.com/matafokka/vite-awesome-svg-loader) - Imports SVGs as source code, base64 and data URI. Preserves stroke width, replaces colors with currentColor. Optimizes SVGs with SVGO. Creates SVG sprites.
-- [vite-plugin-dir2json](https://github.com/buddywang/vite-plugin-dir2json) - Convert the directory structure into json data containing supported file paths.
-- [@responsive-image/vite-plugin](https://github.com/simonihmig/responsive-image) - Transform and generate optimized responsive images (WebP, AVIF) and LQIP placeholders for use with image components.
-- [@goodforyou/vite-plugin-markdown-import](https://github.com/good-for-you-web-services/vite-plugin-import-markdown) - Directly import Markdown files as a string, with support for front-matter attributes as an object.
+- [unplugin-icons](https://github.com/antfu/unplugin-icons) - 可将数千个图标作为组件使用。
+- [vite-imagetools](https://github.com/JonasKruckenberg/vite-imagetools) - 通过 URL 查询参数加载并转换图像。
+- [vite-plugin-radar](https://github.com/stafyniaksacha/vite-plugin-radar) - 一体化分析加载器（支持 7 家以上供应商）
+- [vite-plugin-glsl](https://github.com/UstymUkhman/vite-plugin-glsl) - 导入着色器文件块。
+- [vite-plugin-svgo](https://github.com/r3dDoX/vite-plugin-svgo) - 将 SVG 文件加载为纯字符串，并使用 SVGO 库进行转换。
+- [vite-plugin-remark-rehype](https://github.com/y-nk/vite-plugin-remark-rehype) - 使用统一的生态系统来加载和转换 Markdown 文件。
+- [vite-plugin-php](https://github.com/donnikitos/vite-plugin-php) - 加载并处理 PHP 入口文件，而非默认的 index.html 文件。
+- [vite-plugin-lqip](https://github.com/drwpow/vite-plugin-lqip) - 生成低质量图像占位图（LQIP）。
+- [vite-plugin-ms-clarity](https://github.com/KermanX/vite-plugin-ms-clarity) - 将微软“清晰”脚本注入到“index.html”文件中。
+- [@cyco130/vite-plugin-mdx](https://github.com/cyco130/vite-plugin-mdx) - 这是一个可在 Vite 应用程序中使用 MDX 的插件。它已针对 React、Preact 和 Solid 进行了测试，但理论上应能与任何支持 JSX 的实现兼容。
+- [vite-awesome-svg-loader](https://github.com/matafokka/vite-awesome-svg-loader) - 以源代码、Base64 编码和数据 URI 的形式导入 SVG 图像。保持描边宽度，将颜色替换为当前颜色。使用 SVGO 对 SVG 图像进行优化。创建 SVG 精简图集。
+- [vite-plugin-dir2json](https://github.com/buddywang/vite-plugin-dir2json) - 将目录结构转换为包含支持文件路径的 json 数据。
+- [@responsive-image/vite-plugin](https://github.com/simonihmig/responsive-image) - 对图像进行转换并生成优化的响应式图片（如 WebP、AVIF 格式）以及低质量图像（LQIP）占位符，以便用于图像组件中。
+- [@goodforyou/vite-plugin-markdown-import](https://github.com/good-for-you-web-services/vite-plugin-import-markdown) - 直接将 Markdown 文件以字符串形式导入，并支持将前文属性作为对象进行处理。
 
 #### Bundling
 
-- [rollup-plugin-critical](https://github.com/nystudio107/rollup-plugin-critical) - Generate critical CSS.
-- [vite-plugin-dts](https://github.com/qmhc/vite-plugin-dts) - Generate declaration files from `.ts` or `.vue` source files for lib.
-- [vite-compression-plugin](https://github.com/XeryYue/vite-compression-plugin) - Use Node.js stream compress file to gzip or more.
-- [vite-plugin-chunk-split](https://github.com/sanyuan0704/vite-plugin-chunk-split) - Automatically code splitting, support unbundle in production.
-- [vite-plugin-static-copy](https://github.com/sapphi-red/vite-plugin-static-copy) - Copy files and folders.
-- [vite-plugin-zip-file](https://github.com/Ssis53/vite-plugin-zip) - Compress files or folders into zip.
-- [vite-plugin-zip-pack](https://github.com/7th-Cyborg/vite-plugin-zip-pack) - Pack distribution/build folder into a zip file.
-- [vite-plugin-cp](https://github.com/fengxinming/vite-plugins/tree/main/packages/vite-plugin-cp) - Copy files after building bundles.
-- [unplugin-imagemin](https://github.com/ErKeLost/unplugin-imagemin) - High performance compressed Picture based on squoosh and sharp.
-- [vite-plugin-image-optimizer](https://github.com/FatehAK/vite-plugin-image-optimizer) - Optimize (compress) your image assets using Sharp.js and SVGO at build time.
-- [vite-plugin-no-bundle](https://github.com/ManBearTM/vite-plugin-no-bundle) - Generate unbundled code for use with native ESM or other bundlers.
-- [vite-plugin-css-injected-by-js](https://github.com/marco-prontera/vite-plugin-css-injected-by-js) - Takes the CSS and adds it to the page through the JS.
-- [unplugin-zip-pack](https://github.com/iamspark1e/unplugin-zip-pack) - Zip your dist with filter function support.
-- [vite-plugin-singlefile](https://github.com/richardtallent/vite-plugin-singlefile) - Inline all JavaScript and CSS resources directly into the final `dist/index.html` file.
-- [vite-plugin-node-polyfills](https://github.com/davidmyersdev/vite-plugin-node-polyfills) - Polyfill Node's Core Modules for browser environments.
+- [rollup-plugin-critical](https://github.com/nystudio107/rollup-plugin-critical) - 生成关键的 CSS 代码。
+- [vite-plugin-dts](https://github.com/qmhc/vite-plugin-dts) - 从 `.ts` 或 `.vue` 源文件生成用于库的声明文件。
+- [vite-compression-plugin](https://github.com/XeryYue/vite-compression-plugin) - 使用 Node.js 流将文件压缩为 gzip 格式或更高版本。
+- [vite-plugin-chunk-split](https://github.com/sanyuan0704/vite-plugin-chunk-split) - 自动进行代码分割，支持在生产环境中进行拆分。
+- [vite-plugin-static-copy](https://github.com/sapphi-red/vite-plugin-static-copy) - 复制文件和文件夹。
+- [vite-plugin-zip-file](https://github.com/Ssis53/vite-plugin-zip) - 将文件或文件夹压缩成 zip 格式
+- [vite-plugin-zip-pack](https://github.com/7th-Cyborg/vite-plugin-zip-pack) - 将打包文件/构建文件夹压缩成一个 zip 文件。
+- [vite-plugin-cp](https://github.com/fengxinming/vite-plugins/tree/main/packages/vite-plugin-cp) - 在构建包之后复制文件。
+- [unplugin-imagemin](https://github.com/ErKeLost/unplugin-imagemin) - 高性能压缩图片
+- [vite-plugin-image-optimizer](https://github.com/FatehAK/vite-plugin-image-optimizer) - 在构建时使用 Sharp.js 和 SVGO 来优化（压缩）您的图像资源。
+- [vite-plugin-no-bundle](https://github.com/ManBearTM/vite-plugin-no-bundle) - 生成独立的代码，以便与原生 ESM 或其他打包工具配合使用。
+- [vite-plugin-css-injected-by-js](https://github.com/marco-prontera/vite-plugin-css-injected-by-js) - 将 CSS 代码通过 JavaScript 添加到页面中。
+- [unplugin-zip-pack](https://github.com/iamspark1e/unplugin-zip-pack) - 使用过滤功能支持来压缩您的文件集。
+- [vite-plugin-singlefile](https://github.com/richardtallent/vite-plugin-singlefile) - 将所有的 JavaScript 和 CSS 资源直接嵌入到最终的 `dist/index.html` 文件中。
+- [vite-plugin-node-polyfills](https://github.com/davidmyersdev/vite-plugin-node-polyfills) - 为浏览器环境补充 Node 的核心模块。
 - [vite-plugin-cdn2](https://github.com/nonzzz/vite-plugin-cdn) - Replace module with CDN.
-- [vite-plugin-bundle-prefetch](https://github.com/dreambo8563/vite-plugin-bundle-prefetch) - Inject prefetch assets into `index.html`.
-- [vite-plugin-imagemin](https://github.com/vHeemstra/vite-plugin-imagemin) - Optimize and compress your image assets and optionally create WebP/AVIF.
-- [vite-plugin-lib-types](https://github.com/keuby/vite-plugin-lib-types) - Generate DTS file while building library.
-- [vite-plugin-minipic](https://github.com/60late/vite-plugin-minipic) - Efficient image compression tool.
-- [vite-plugin-robots](https://github.com/kolirt/vite-plugin-robots) - Generating `robots.txt`.
-- [vite-plugin-bundle-obfuscator](https://github.com/z0ffy/vite-plugin-bundle-obfuscator) - JavaScript obfuscator.
-- [@yuanjianming/unplugin-image-convert](https://github.com/yuan66-hub/unplugin-image-convert) - Image multi format conversion plugin based on sharp.js.
-- [vite-plugin-dynamic-chunk](https://github.com/MrQinYQ/vite-plugin-dynamic-chunk) - Split dependencies between entry and dynamic entry, and merge small chunks.
-- [@yuanjianming/unplugin-compress-svga](https://github.com/yuan66-hub/unplugin-compress-svga) - Compress SVGA.
-- [@yuanjianming/unplugin-font-spider](https://github.com/yuan66-hub/unplugin-font-spider) - A webfont compression plugin.
-- [vite-plugin-static-filehash](https://github.com/MrQinYQ/vite-plugin-static-filehash) - It can help the program improve the cache hit rate.
-- [vite-plugin-singlefile-compression](https://github.com/bddjr/vite-plugin-singlefile-compression) - Compress all assets and embeds them into `dist/index.html`, making it convenient to share as a single HTML file.
-- [vite-plugin-builder](https://github.com/yracnet/vite-plugin-builder) - Enable dual compilation for Server-Side Rendering (SSR) and Client-Side Rendering (CSR).
+- [vite-plugin-bundle-prefetch](https://github.com/dreambo8563/vite-plugin-bundle-prefetch) - 将预取资源注入到“index.html”文件中。
+- [vite-plugin-imagemin](https://github.com/vHeemstra/vite-plugin-imagemin) - 优化并压缩您的图像资源，并可选择生成 WebP/AVIF 格式。
+- [vite-plugin-lib-types](https://github.com/keuby/vite-plugin-lib-types) -在构建库的过程中生成 DTS 文件。
+- [vite-plugin-minipic](https://github.com/60late/vite-plugin-minipic) - 高效的图像压缩工具。
+- [vite-plugin-robots](https://github.com/kolirt/vite-plugin-robots) - 生成 `robots.txt`.
+- [vite-plugin-bundle-obfuscator](https://github.com/z0ffy/vite-plugin-bundle-obfuscator) - JavaScript 代码混淆器
+- [@yuanjianming/unplugin-image-convert](https://github.com/yuan66-hub/unplugin-image-convert) - 基于 sharp.js 的图像多格式转换插件。
+- [vite-plugin-dynamic-chunk](https://github.com/MrQinYQ/vite-plugin-dynamic-chunk) - 将依赖关系在入口部分和动态入口部分之间进行划分，并合并较小的模块。
+- [@yuanjianming/unplugin-compress-svga](https://github.com/yuan66-hub/unplugin-compress-svga) - 压缩 SVGA.
+- [@yuanjianming/unplugin-font-spider](https://github.com/yuan66-hub/unplugin-font-spider) - 一个网页字体压缩插件。
+- [vite-plugin-static-filehash](https://github.com/MrQinYQ/vite-plugin-static-filehash) - 帮助该程序提高缓存命中率
+- [vite-plugin-singlefile-compression](https://github.com/bddjr/vite-plugin-singlefile-compression) - 将所有资源和嵌入内容压缩后嵌入到 `dist/index.html` 文件中，这样便于将其作为一个单一的 HTML 文件进行分享。
+- [vite-plugin-builder](https://github.com/yracnet/vite-plugin-builder) - 启用服务器端渲染（SSR）和客户端端渲染（CSR）的双重编译功能。
 
 #### Transformers
 
-- [vite-plugin-html](https://github.com/anncwb/vite-plugin-html) - Plugin to minimize and use ejs template syntax in `index.html`.
+- [vite-plugin-html](https://github.com/anncwb/vite-plugin-html) - 用于在“index.html”文件中最小化并使用 ejs 模板语法。
 - [vite-plugin-ts-nameof](https://github.com/Shinigami92/vite-plugin-ts-nameof) - Ability to resolve [nameof](https://github.com/dsherret/ts-nameof) in TypeScript.
-- [vite-plugin-handlebars](https://github.com/alexlafroscia/vite-plugin-handlebars) - Process HTML files with Handlebars.
-- [vite-plugin-virtual-html](https://github.com/Windson1806/vite-plugin-virtual-html) - Make Vite MPA consistent with `@vue/cli`.
-- [vite-plugin-content](https://github.com/originjs/origin.js/tree/main/packages/vite-plugin-content) - Convert `yaml`, `xml`, `ini`, `toml`, `csv`, `plist` and `properties` files to ES6 modules.
-- [vite-plugin-require](https://github.com/wangzongming/vite-plugin-require) - A Vite plugin that supports `require` by code transforming.
-- [vite-plugin-global-style](https://github.com/originjs/origin.js/tree/main/packages/vite-plugin-global-style) - Deal with global styles for CSS, SASS, LESS and Stylus.
-- [vite-plugin-shared-modules](https://github.com/zheeeng/vite-plugin-shared-modules) - Share node_modules in monorepos.
-- [vite-plugin-pug-transformer](https://github.com/TheSeally/vite-plugin-pug-transformer) - Pug template engine support.
-- [@import-meta-env/unplugin](https://github.com/runtime-env/import-meta-env) - Inject environment variables into the `import.meta.env` object after building the application instead of statically replacing it during production.
-- [@modyfi/vite-plugin-yaml](https://github.com/Modyfi/vite-plugin-yaml) - Transform YAML files to ESM with schema validation and error reporting.
-- [vite-plugin-html-inject](https://github.com/donnikitos/vite-plugin-html-inject) - Split the `index.html` into smaller reusable pieces.
-- [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload) - Inject `<link rel="preload">` to your `index.html` based on your build assets.
-- [@vituum/vite-plugin-handlebars](https://github.com/vituum/vite-plugin-handlebars) - Handlebars template engine support, transforms `.hbs` templates to `.html`.
-- [@vituum/vite-plugin-pug](https://github.com/vituum/vite-plugin-pug) - Pug template engine support, transforms `.pug` templates to `.html`.
-- [@vituum/vite-plugin-nunjucks](https://github.com/vituum/vite-plugin-nunjucks) - Nunjucks template engine support, transforms `.njk` templates to `.html`.
-- [@vituum/vite-plugin-liquid](https://github.com/vituum/vite-plugin-liquid) - Liquid template engine support, transforms `.liquid` templates to `.html`.
-- [@vituum/vite-plugin-twig](https://github.com/vituum/vite-plugin-twig) - Twig template engine support, transforms `.twig` templates to `.html`.
-- [@vituum/vite-plugin-latte](https://github.com/vituum/vite-plugin-latte) - Latte template engine support, transforms `.latte` templates to `.html`.
-- [@vituum/vite-plugin-posthtml](https://github.com/vituum/vite-plugin-posthtml) - PostHTML support, transforms syntax to `.html`.
-- [@vituum/vite-plugin-juice](https://github.com/vituum/vite-plugin-juice) - Juice support, transforms `.css` to inline styles in `.html`.
-- [vite-plugin-version-mark](https://github.com/ZhongxuYang/vite-plugin-version-mark) - Automatically use `package version` / `git commit` / `custom` to be inserted into your project as a unique identifier for the project version.
-- [vite-plugin-css-export](https://github.com/shixuanhong/vite-plugin-css-export) - Export variables from CSS to JavaScript, and support nested rules.
-- [vite-plugin-optimize-css-modules](https://github.com/Simonwep/vite-plugin-optimize-css-modules) - Generate the smallest possible CSS-Classes when CSS-Modules are used.
-- [vite-plugin-generate-html](https://github.com/gedouu/vite-plugin-generate-html) - Define separate output files for JavaScript and CSS bundles.
-- [vite-plugin-turbo-console](https://github.com/yuyinws/vite-plugin-turbo-console) - Enhance the readability of `console.log()`.
-- [vite-plugin-html-injection](https://github.com/altrusl/vite-plugin-html-injection) - Inject HTML, JavaScript and CSS code snippets into the `index.html`.
-- [vite-plugin-typescript-transform](https://github.com/herberttn/vite-plugin-typescript-transform) - Applies the TypeScript compiler during Vite's transform build phase.
-- [vite-plugin-public-typescript](https://github.com/hemengke1997/vite-plugin-public-typescript) - Inject Typescript into `index.html`.
-- [unplugin-generate-component-name](https://github.com/CCherry07/unplugin-generate-component-name) - Automatically generate component's name.
-- [@laynezh/vite-plugin-lib-assets](https://github.com/laynezh/vite-plugin-lib-assets) - Extracts resource files referenced in `library mode` instead of embedded them as base64.
-- [css-media-splitter/vite-plugin](https://github.com/levchak0910/css-media-splitter) - Extracts all `@media` At-rules into a dedicated `.css` files and download it only when matches the media query.
-- [@tomjs/vite-plugin-html](https://github.com/tomjs/vite-plugin-html) - Support compression, loading, CDN and others for `index.html`.
-- [@tomjs/vite-plugin-iconify](https://github.com/tomjs/vite-plugin-iconify) - Inject the global variable `IconifyProviders` into `index.html` for `iconify`, and support local area network and custom url.
-- [vite-plugin-icons-spritesheet](https://github.com/forge42dev/vite-plugin-icons-spritesheet) - Generate a spritesheet and TypeScript types from SVG icons by listening to the icons folder changes.
-- [vite-plugin-abbrlink](https://github.com/tangerball/abbrlink/tree/master/packages/vite-plugin-abbrlink#readme) - Add the abbrlink attribute to the `markdown` file in the specified directory.
-- [vite-plugin-native](https://github.com/vite-plugin/vite-plugin-native) - Supports Node/Electron C/C++ native addons.
-- [@yoichiro/vite-plugin-handlebars](https://github.com/yoichiro/vite-plugin-handlebars) - Import of Handlebars templates `.hbs` as ES Modules.
-- [vite-plugin-magic-preloader](https://github.com/cszhjh/vite-plugin-magic-preloader) - Generate `<link rel="prefetch" />` or `<link rel="preload" />` tags through magic comments and inject them into `index.html`.
-- [vite-plugin-replace-lodash](https://github.com/mingtianyihou33/vite-plugin-replace-lodash) - Replacing the import of `lodash` with `lodash-es` is more beneficial to tree-shaking.
-- [vite-plugin-dynamic-prefetch](https://github.com/Linh-Tran-0312/vite-plugin-dynamic-prefetch) - Inject `<link rel="prefetch" />` tags into the HTML file for dynamic modules at runtime.
-- [vite-plugin-material-symbols](https://github.com/RobinTail/vite-plugin-material-symbols) - Selective loading of Material Symbols font icons based on source code analysis.
+- [vite-plugin-handlebars](https://github.com/alexlafroscia/vite-plugin-handlebars) - 使用 Handlebars 处理 HTML 文件。
+- [vite-plugin-virtual-html](https://github.com/Windson1806/vite-plugin-virtual-html) - 使 Vite MPA 与 `@vue/cli` 保持一致
+- [vite-plugin-content](https://github.com/originjs/origin.js/tree/main/packages/vite-plugin-content) -将 `yaml`、`xml`、`ini`、`toml`、`csv`、`plist` 和 `properties` 文件转换为 ES6 模块.
+- [vite-plugin-require](https://github.com/wangzongming/vite-plugin-require) - 通过代码转换来支持 `require` 操作
+- [vite-plugin-global-style](https://github.com/originjs/origin.js/tree/main/packages/vite-plugin-global-style) - 处理适用于 CSS、SASS、LESS 和 Stylus 的全局样式
+- [vite-plugin-shared-modules](https://github.com/zheeeng/vite-plugin-shared-modules) - 在多仓库项目中共享“node_modules”文件夹
+- [vite-plugin-pug-transformer](https://github.com/TheSeally/vite-plugin-pug-transformer) - Pug 模板引擎支持
+- [@import-meta-env/unplugin](https://github.com/runtime-env/import-meta-env) - 在构建应用程序后，将环境变量注入到 `import.meta.env` 对象中，而非在生产环境中静态地对其进行替换。
+- [@modyfi/vite-plugin-yaml](https://github.com/Modyfi/vite-plugin-yaml) - 将 YAML 文件转换为 ESM，并进行模式验证和错误报告。
+- [vite-plugin-html-inject](https://github.com/donnikitos/vite-plugin-html-inject) - 将“index.html”文件拆分成更小且可重复使用的部分。
+- [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload) - 根据您的构建资产情况，在您的“index.html”文件中添加 `<link rel="preload">` 标签
+- [@vituum/vite-plugin-handlebars](https://github.com/vituum/vite-plugin-handlebars) - 支持 Handlebars 模板引擎，将 `.hbs` 格式的模板转换为 `.html` 格式
+- [@vituum/vite-plugin-pug](https://github.com/vituum/vite-plugin-pug) - 支持 Pug 模板引擎，可将 `.pug` 模板转换为 `.html` 格式。
+- [@vituum/vite-plugin-nunjucks](https://github.com/vituum/vite-plugin-nunjucks) - 支持 Nunjucks 模板引擎，可将 `.njk` 格式的模板转换为 `.html` 格式。
+- [@vituum/vite-plugin-liquid](https://github.com/vituum/vite-plugin-liquid) - 支持 Liquid 模板引擎，可将“.liquid”格式的模板转换为“.html”格式。
+- [@vituum/vite-plugin-twig](https://github.com/vituum/vite-plugin-twig) - 支持 Twig 模板引擎，可将 `.twig` 格式的模板转换为 `.html` 格式。
+- [@vituum/vite-plugin-latte](https://github.com/vituum/vite-plugin-latte) - 支持 Latte 模板引擎，可将“.latte”格式的模板转换为“.html”格式。
+- [@vituum/vite-plugin-posthtml](https://github.com/vituum/vite-plugin-posthtml) - 支持 PostHTML，可将语法转换为 `.html` 格式。
+- [@vituum/vite-plugin-juice](https://github.com/vituum/vite-plugin-juice) - 可将 `.css` 文件转换为 `.html` 文件中的内联样式。
+- [vite-plugin-version-mark](https://github.com/ZhongxuYang/vite-plugin-version-mark) - 使用 `package version` / `git commit` / `custom` 这些信息插入到您的项目中，作为项目版本的唯一标识符
+- [vite-plugin-css-export](https://github.com/shixuanhong/vite-plugin-css-export) - 将 CSS 中的变量导出到 JavaScript 中，并支持嵌套规则。
+- [vite-plugin-optimize-css-modules](https://github.com/Simonwep/vite-plugin-optimize-css-modules) - 当使用 CSS 模块时，应生成尽可能小的 CSS 类。
+- [vite-plugin-generate-html](https://github.com/gedouu/vite-plugin-generate-html) - 为 JavaScript 和 CSS 捆绑包分别定义独立的输出文件
+- [vite-plugin-turbo-console](https://github.com/yuyinws/vite-plugin-turbo-console) - 提高 `console.log()` 函数的可读性。
+- [vite-plugin-html-injection](https://github.com/altrusl/vite-plugin-html-injection) - 将 HTML、JavaScript 和 CSS 代码片段插入到“index.html”文件中。
+- [vite-plugin-typescript-transform](https://github.com/herberttn/vite-plugin-typescript-transform) - 在 Vite 的转换构建阶段应用 TypeScript 编译器。
+- [vite-plugin-public-typescript](https://github.com/hemengke1997/vite-plugin-public-typescript) - 将 TypeScript 注入到 `index.html` 文件中。
+- [unplugin-generate-component-name](https://github.com/CCherry07/unplugin-generate-component-name) - 自动生成组件的名称
+- [@laynezh/vite-plugin-lib-assets](https://github.com/laynezh/vite-plugin-lib-assets) - 提取在“库模式”中引用的资源文件，而非将其以 base64 格式嵌入其中
+- [css-media-splitter/vite-plugin](https://github.com/levchak0910/css-media-splitter) - 将所有“@media”指令提取到单独的“.css”文件中，并仅在匹配媒体查询时才进行下载。
+- [@tomjs/vite-plugin-html](https://github.com/tomjs/vite-plugin-html) - 为 `index.html` 文件提供压缩、加载、内容分发网络（CDN）等服务。
+- [@tomjs/vite-plugin-iconify](https://github.com/tomjs/vite-plugin-iconify) - 将全局变量“IconifyProviders”注入到“index.html”文件中，以便用于“iconify”功能，并支持局域网连接以及自定义网址。
+- [vite-plugin-icons-spritesheet](https://github.com/forge42dev/vite-plugin-icons-spritesheet) - 通过监听图标文件夹的更改，自动生成一个精灵图以及相应的 TypeScript 类型，这些类型基于 SVG 图标构建。
+- [vite-plugin-abbrlink](https://github.com/tangerball/abbrlink/tree/master/packages/vite-plugin-abbrlink#readme) - 在指定目录中的“markdown”文件中添加“abbrlink”属性。
+- [vite-plugin-native](https://github.com/vite-plugin/vite-plugin-native) - 支持 Node/Electron 的 C/C++ 原生插件。
+- [@yoichiro/vite-plugin-handlebars](https://github.com/yoichiro/vite-plugin-handlebars) - 将 Handlebars 模板文件（以 `.hbs` 扩展名保存）以 ES 模块的形式导入。
+- [vite-plugin-magic-preloader](https://github.com/cszhjh/vite-plugin-magic-preloader) - 通过魔法注释生成 `<link rel="prefetch" />` 或 `<link rel="preload" />` 标签，并将其注入到 `index.html` 文件中。
+- [vite-plugin-replace-lodash](https://github.com/mingtianyihou33/vite-plugin-replace-lodash) - 将 `lodash` 的导入替换为 `lodash-es` 对于代码的树状化优化更有益处。
+- [vite-plugin-dynamic-prefetch](https://github.com/Linh-Tran-0312/vite-plugin-dynamic-prefetch) - 在运行时将 `<link rel="prefetch" />` 标签注入到 HTML 文件中，以实现动态模块的动态加载。
+- [vite-plugin-material-symbols](https://github.com/RobinTail/vite-plugin-material-symbols) - 根据源代码分析选择性加载“材料符号”字体图标。
 
 #### Helpers
 
