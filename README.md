@@ -241,14 +241,14 @@ Use the "Table of Contents" menu on the top-right corner to explore the list.
 
 #### Integrations
 
-- [@vitejs/plugin-legacy](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy) - Legacy browser support.
-- [vite-plugin-pwa](https://github.com/antfu/vite-plugin-pwa) - Zero-config PWA.
-- [vite-plugin-windicss](https://github.com/windicss/vite-plugin-windicss) - Windi CSS integration.
-- [vite-plugin-node](https://github.com/axe-me/vite-plugin-node) - Integration with Node.js backend servers.
-- [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - Integration with Cesium library.
-- [vite-plugin-linter](https://bitbucket.org/unimorphic/vite-plugin-linter) - Extensible linter framework that shows the linting output in the Vite output and the browser console, includes ESLint & TypeScript ootb.
+- [@vitejs/plugin-legacy](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy) - 对旧版浏览器的支持
+- [vite-plugin-pwa](https://github.com/antfu/vite-plugin-pwa) - 零配置渐进式网络应用
+- [vite-plugin-windicss](https://github.com/windicss/vite-plugin-windicss) - Windi CSS 集成
+- [vite-plugin-node](https://github.com/axe-me/vite-plugin-node) - 能让您使用 Vite 作为 Node 开发服务器
+- [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - CesiumJS 集成库支持插件
+- [vite-plugin-linter](https://bitbucket.org/unimorphic/vite-plugin-linter) - 可扩展的代码检查框架，能在 Vite 输出和浏览器控制台中显示代码检查结果，自带 ESLint 和 TypeScript 功能。
 - [vite-plugin-checker](https://github.com/fi3ework/vite-plugin-checker) - Fast run checkers (TypeScript/VLS/vue-tsc, etc.) in worker threads with overlay and terminal hint.
-- [vite-plugin-tauri](https://github.com/amrbashir/vite-plugin-tauri) - Integrate Tauri in a Vite project to build cross-platform apps.
+- [vite-plugin-tauri](https://github.com/amrbashir/vite-plugin-tauri) - 在工作线程中使用覆盖界面和终端提示的方式对快速运行检查器（如 TypeScript/VLS/vue-tsc 等）进行测试。
 - [vite-plugin-federation](https://github.com/originjs/vite-plugin-federation) - Support Module Federation, Inspired by Webpack Module Federation feature.
 - [vite-plugin-wasm-pack](https://github.com/nshen/vite-plugin-wasm-pack) - Integration with rust [wasm-pack](https://github.com/rustwasm/wasm-pack), the simple way.
 - [vite-plugin-comlink](https://github.com/mathe42/vite-plugin-comlink) - Use WebWorkers with the power of [Comlink](https://github.com/GoogleChromeLabs/comlink) to make them enjoyable.
