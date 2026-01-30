@@ -247,60 +247,60 @@ Use the "Table of Contents" menu on the top-right corner to explore the list.
 - [vite-plugin-node](https://github.com/axe-me/vite-plugin-node) - 能让您使用 Vite 作为 Node 开发服务器
 - [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - CesiumJS 集成库支持插件
 - [vite-plugin-linter](https://bitbucket.org/unimorphic/vite-plugin-linter) - 可扩展的代码检查框架，能在 Vite 输出和浏览器控制台中显示代码检查结果，自带 ESLint 和 TypeScript 功能。
-- [vite-plugin-checker](https://github.com/fi3ework/vite-plugin-checker) - Fast run checkers (TypeScript/VLS/vue-tsc, etc.) in worker threads with overlay and terminal hint.
-- [vite-plugin-tauri](https://github.com/amrbashir/vite-plugin-tauri) - 在工作线程中使用覆盖界面和终端提示的方式对快速运行检查器（如 TypeScript/VLS/vue-tsc 等）进行测试。
-- [vite-plugin-federation](https://github.com/originjs/vite-plugin-federation) - Support Module Federation, Inspired by Webpack Module Federation feature.
-- [vite-plugin-wasm-pack](https://github.com/nshen/vite-plugin-wasm-pack) - Integration with rust [wasm-pack](https://github.com/rustwasm/wasm-pack), the simple way.
-- [vite-plugin-comlink](https://github.com/mathe42/vite-plugin-comlink) - Use WebWorkers with the power of [Comlink](https://github.com/GoogleChromeLabs/comlink) to make them enjoyable.
-- [vite-plugin-sass-dts](https://github.com/activeguild/vite-plugin-sass-dts) - This is a plugin that automatically creates a type file when using the CSS module type-safely.
-- [vite-plugin-ali-oss](https://github.com/xiaweiss/vite-plugin-ali-oss) - Upload the production files bundled in the project to Ali OSS, except for HTML.
-- [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl) - Downloads and injects webfonts (Google Fonts) to improve website's performance.
-- [vite-plugin-babel](https://github.com/owlsdepartment/vite-plugin-babel) - Babel integration for both build and server to support f.ex. decorators or class fields in pure JS/JSX files.
-- [vite-plugin-electron](https://github.com/electron-vite/vite-plugin-electron) - Integrate Vite and Electron.
-- [vite-plugin-optimizer](https://github.com/vite-plugin/vite-plugin-optimizer) - Manually Pre-Bundling.
-- [vite-plugin-babel-compiler](https://github.com/yzydeveloper/vite-plugin-babel-compiler) - The plugin works with Babel compiler.
-- [vite-plugin-commonjs](https://github.com/vite-plugin/vite-plugin-commonjs) - A pure JavaScript implementation for CommonJs.
-- [vite-plugin-mpa-plus](https://github.com/yzydeveloper/vite-plugin-mpa-plus) - More flexible MPA (multi-page application) supports html templates, path rewriting.
-- [vite-plugin-multi-pages](https://github.com/Miofly/vite-plugin-multi-pages) - Multi Pages Support，can build src/pages anyPage，can set prefixName.
-- [vite-plugin-html-template-mpa](https://github.com/Miofly/vite-plugin-html-template-mpa) - Multi Pages Common template support.
-- [vite-plugin-vconsole-mpa](https://github.com/Miofly/vite-plugin-vconsole-mpa) - Multi Pages Vconsole supports，simple config.
-- [vite-plugin-browser-sync](https://github.com/Applelo/vite-plugin-browser-sync) - BrowserSync.
-- [vite-plugin-jspm](https://github.com/jspm/vite-plugin-jspm) - Resolves dependencies independently from CDN providers using import maps and es-module-shims.
-- [vite-plugin-env-switch](https://github.com/PengBoUESTC/vite-plugin-env-switch) - Switch project env and restart vite server without command line operation.
-- [vite-plugin-virtual-mpa](https://github.com/emosheeep/vite-plugin-virtual-mpa) - Out-of-box MPA plugin, with html template engine and virtual files support, which generate multiple files using only one template.
-- [vite-plugin-stylelint](https://github.com/ModyQyW/vite-plugin-stylelint) - Runs Stylelint synchronously/asynchronously.
-- [Vite-plugin-graphiql](https://github.com/mammadataei/vite-plugin-graphiql) - Integration for GraphiQL IDE.
-- [vite-plugin-graphql-server](https://github.com/mammadataei/vite-plugin-graphql-server) - Bootstrap a local GraphQL server for testing and documentaion.
-- [unplugin-fonts](https://github.com/cssninjaStudio/unplugin-fonts) - Load font from Typekit, Google Fonts, Fontsource or your own custom one.
-- [unplugin-config](https://github.com/kirklin/unplugin-config) - Configuration file generator for web apps, allowing external customization of global variables without repackaging.
-- [vite-plugin-svg-spritemap](https://github.com/g-makarov/vite-plugin-svg-spritemap) - Generates a SVG spritemap from multiple .svg files.
-- [vite-plugin-dc](https://github.com/dvgis/vite-plugin-dc) - Integration with @dvgis/dc-sdk library.
-- [@spiriit/vite-plugin-svg-spritemap](https://github.com/SpiriitLabs/vite-plugin-svg-spritemap) - Pack your SVG files in one spritemap file and use them with `<svg>`/`<img>` and directly in your CSS.
-- [vite-plugin-auto-mpa-html](https://github.com/iamspark1e/vite-plugin-auto-mpa-html) - A file directory-based automated multi-page build plugin that supports HTML templates using EJS.
-- [vite-plugin-cloudflare-functions](https://github.com/yjl9903/vite-plugin-cloudflare-functions) - Cloudflare pages function integration.
-- [@storybook/builder-vite](https://github.com/storybookjs/storybook/tree/next/code/builders/builder-vite/) - Storybook builder.
-- [@builder.io/partytown](https://github.com/BuilderIO/partytown) - Relocate resource intensive third-party scripts off of the main thread and into a web worker.
-- [vite-plugin-dynamic-proxy](https://github.com/zjpzjp/vite-plugin-debug-proxy) - Automatically configure reverse proxies based on URL parameters.
-- [unplugin-auto-export](https://github.com/coderhyh/unplugin-auto-export) - Automates the maintenance of export statements in the index.ts file.
-- [remix-development-tools](https://github.com/forge42dev/Remix-Dev-Tools) - Plugin for Remix.run development tools.
-- [vite-plugin-legacy-swc](https://github.com/CyanSalt/vite-plugin-legacy-swc) - Legacy browser support with SWC.
-- [vite-plugin-biome](https://github.com/skrulling/vite-plugin-biome) - Biome linter.
-- [vite-plugin-oxlint](https://github.com/52-entertainment/vite-plugin-oxlint) - Oxlint linter.
-- [@tomjs/vite-plugin-electron](https://github.com/tomjs/vite-plugin-electron) - Easily develop `Electron` applications.
-- [@tomjs/vite-plugin-vscode](https://github.com/tomjs/vite-plugin-vscode) - Easily use web frameworks to develop `VSCode Extension`'s `Webview`, and support `HMR` and `Debug`.
-- [vite-plugin-px-rem-vw](https://github.com/zscumt123/vite-plugin-px-rem-vw) - Integrate PostCSS plugin pxTorem and pxTovw.
-- [vite-plugin-mpg](https://github.com/just-ads/vite-plugin-multi-page) - Simple configuration of multi page applications.
-- [vite-plugin-pagefind](https://github.com/Hugos68/vite-plugin-pagefind) - Integrate `pagefind` search.
-- [@mistjs/vite-plugin-px2viewport](https://github.com/aibayanyu20/vite-plugins/tree/main/packages/px2viewport) - A plugin that automatically converts inline styles and style files from px units to vw units.
-- [vite-multiple-assets](https://github.com/nguyenbatranvan/vite-multiple-assets) - Add support for multiple public asset directories.
-- [vite-create-production-server-plugin](https://github.com/jrtderonde/vite-create-production-server-plugin) - Spin up a production HTTP serve after build.
-- [vite-plugin-eslint2](https://github.com/ModyQyW/vite-plugin-eslint2) - Runs ESLint synchronously/asynchronously.
-- [vite-plugin-page-html](https://github.com/Marinerer/vite-plugins/tree/main/packages/page-html) - Multi-page generic template plugin, support `ejs` template syntax. Similar to `vue-cli` pages configuration.
-- [vite-plugin-vanilla](https://github.com/Marinerer/vite-plugins/tree/main/packages/vanilla) - Vanilla multi-page web development mode.
-- [genaicode/vite-plugin](https://github.com/gtanczyk/genaicode/tree/master/src/vite-genaicode/) - A plugin that embeds an AI coding assistant into the app UI.
-- [vite-plugin-year](https://github.com/8hobbies/vite-plugin-year) - Inserts the current year to the HTML file during build. Useful for adding a copyright year to the HTML file.
-- [vite-plugin-llms](https://github.com/saschaseniuk/vite-plugin-llms) - Integration for the llms.txt specification supporting AI optimized content alongside application routes.
-- [module-federation/vite](https://github.com/module-federation/vite) - Official Module Federation integration, enabling dynamic remote module loading.
+- [vite-plugin-checker](https://github.com/fi3ework/vite-plugin-checker) - 在工作线程中使用覆盖界面和终端提示的方式对快速运行检查器（如 TypeScript/VLS/vue-tsc 等）进行测试。
+- [vite-plugin-tauri](https://github.com/amrbashir/vite-plugin-tauri) - 将 Tauri 集成到 Vite 项目中，以构建跨平台应用程序
+- [vite-plugin-federation](https://github.com/originjs/vite-plugin-federation) - 支持模块分发机制，灵感源自 Webpack 的模块分发功能
+- [vite-plugin-wasm-pack](https://github.com/nshen/vite-plugin-wasm-pack) - 整合了 [rust](https://github.com/rust-lang/rust) [wasm-pack](https://github.com/rustwasm/wasm-pack), 简单使用
+- [vite-plugin-comlink](https://github.com/mathe42/vite-plugin-comlink) - 利用 WebWorkers 并结合 [Comlink](https://github.com/GoogleChromeLabs/comlink) 
+- [vite-plugin-sass-dts](https://github.com/activeguild/vite-plugin-sass-dts) - 当使用 CSS 模块进行类型安全操作时，会自动创建一个类型文件
+- [vite-plugin-ali-oss](https://github.com/xiaweiss/vite-plugin-ali-oss) - 将项目中打包后生产文件上传到 Ali OSS, 除了 html 以外
+- [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl) - 下载并导入网页字体（来自谷歌字体库），以提升网站的运行效率。
+- [vite-plugin-babel](https://github.com/owlsdepartment/vite-plugin-babel) - 支持构建和服务器端的 Babel 集成，以实现例如装饰器或纯 JS/JSX 文件中的类字段等功能。
+- [vite-plugin-electron](https://github.com/electron-vite/vite-plugin-electron) - 整合 Vite 和 Electron.
+- [vite-plugin-optimizer](https://github.com/vite-plugin/vite-plugin-optimizer) - 自定义 vite 的预构建.
+- [vite-plugin-babel-compiler](https://github.com/yzydeveloper/vite-plugin-babel-compiler) - Vite 运行时使用了 Babel 编译器.
+- [vite-plugin-commonjs](https://github.com/vite-plugin/vite-plugin-commonjs) - 一个基于纯 JavaScript 的 CommonJs 实现方案
+- [vite-plugin-mpa-plus](https://github.com/yzydeveloper/vite-plugin-mpa-plus) - 更灵活的 MPA（多页面应用程序）支持 HTML 模板和路径重写。
+- [vite-plugin-multi-pages](https://github.com/Miofly/vite-plugin-multi-pages) - 多页面支持，可以创建 src/pages 中的任意页面，并可设置前缀名称
+- [vite-plugin-html-template-mpa](https://github.com/Miofly/vite-plugin-html-template-mpa) - 多页面通用模板支持
+- [vite-plugin-vconsole-mpa](https://github.com/Miofly/vite-plugin-vconsole-mpa) - 多页面 Vconsole 支持，简单配置.
+- [vite-plugin-browser-sync](https://github.com/Applelo/vite-plugin-browser-sync) - 同步浏览器
+- [vite-plugin-jspm](https://github.com/jspm/vite-plugin-jspm) - 通过使用导入映射和 ES 模块补丁，独立于 CDN 提供商来解决依赖关系。
+- [vite-plugin-env-switch](https://github.com/PengBoUESTC/vite-plugin-env-switch) - 切换项目环境并重启 Vite 服务器，无需通过命令行操作。
+- [vite-plugin-virtual-mpa](https://github.com/emosheeep/vite-plugin-virtual-mpa) - 内置的 MPA 插件，具备 HTML 模板引擎和虚拟文件支持功能，仅通过一个模板即可生成多个文件。
+- [vite-plugin-stylelint](https://github.com/ModyQyW/vite-plugin-stylelint) - 以同步/异步的方式运行 Stylelint。
+- [Vite-plugin-graphiql](https://github.com/mammadataei/vite-plugin-graphiql) - GraphiQL IDE 的集成.
+- [vite-plugin-graphql-server](https://github.com/mammadataei/vite-plugin-graphql-server) - 启动一个本地的 GraphQL 服务器以用于测试和文档编制.
+- [unplugin-fonts](https://github.com/cssninjaStudio/unplugin-fonts) - 可以从 Typekit、Google Fonts、Fontsource 或者您自己的自定义字体库中加载字体。
+- [unplugin-config](https://github.com/kirklin/unplugin-config) - 用于网络应用程序的配置文件生成器，允许对全局变量进行外部自定义，而无需重新打包。
+- [vite-plugin-svg-spritemap](https://github.com/g-makarov/vite-plugin-svg-spritemap) - 从多个.svg 文件生成一个 SVG 精简图集。
+- [vite-plugin-dc](https://github.com/dvgis/vite-plugin-dc) - 与 @dvgis/dc-sdk 库的集成。
+- [@spiriit/vite-plugin-svg-spritemap](https://github.com/SpiriitLabs/vite-plugin-svg-spritemap) - 将您的 SVG 文件打包到一个“索引图”文件中，并在使用时与 `<svg>`/`<img>` 标签配合使用，同时也可以直接在您的 CSS 中使用。
+- [vite-plugin-auto-mpa-html](https://github.com/iamspark1e/vite-plugin-auto-mpa-html) - 一个基于文件目录的自动化多页面构建插件，支持使用 EJS 的 HTML 模板。
+- [vite-plugin-cloudflare-functions](https://github.com/yjl9903/vite-plugin-cloudflare-functions) - Cloudflare 页面功能集成.
+- [@storybook/builder-vite](https://github.com/storybookjs/storybook/tree/next/code/builders/builder-vite/) - 使用 vite 构建您的应用，可实现快速启动以及近乎即时的热模块替换功能。
+- [@builder.io/partytown](https://github.com/BuilderIO/partytown) - 将资源密集型的第三方脚本从主线程移至一个网页工作线程中运行。
+- [vite-plugin-dynamic-proxy](https://github.com/zjpzjp/vite-plugin-debug-proxy) - 根据 URL 参数自动配置反向代理。
+- [unplugin-auto-export](https://github.com/coderhyh/unplugin-auto-export) - 实现了对“index.ts”文件中出口语句的维护工作的自动化处理。
+- [remix-development-tools](https://github.com/forge42dev/Remix-Dev-Tools) - 用于 Remix.run 开发工具的插件。
+- [vite-plugin-legacy-swc](https://github.com/CyanSalt/vite-plugin-legacy-swc) - 使用 SWC 实现对旧版浏览器的兼容支持。
+- [vite-plugin-biome](https://github.com/skrulling/vite-plugin-biome) - 将 Biome 代码检查工具集成到您的 Vite 项目中的 Vite 插件。
+- [vite-plugin-oxlint](https://github.com/52-entertainment/vite-plugin-oxlint) -将 Oxlint 代码检查器集成到您的 Vite 项目中
+- [@tomjs/vite-plugin-electron](https://github.com/tomjs/vite-plugin-electron) - 轻松开发“Electron”应用程序
+- [@tomjs/vite-plugin-vscode](https://github.com/tomjs/vite-plugin-vscode) - 可以轻松使用网络框架来开发“VSCode 扩展程序”的“网页视图”，并支持“热模块替换”和“调试”功能。.
+- [vite-plugin-px-rem-vw](https://github.com/zscumt123/vite-plugin-px-rem-vw) - 集成 PostCSS 插件 pxTorem 和 pxTovw。
+- [vite-plugin-mpg](https://github.com/just-ads/vite-plugin-multi-page) - 多页面应用程序的简单配置.
+- [vite-plugin-pagefind](https://github.com/Hugos68/vite-plugin-pagefind) - 整合“pagefind”搜索功能。
+- [@mistjs/vite-plugin-px2viewport](https://github.com/aibayanyu20/vite-plugins/tree/main/packages/px2viewport) - 能够自动将内联样式和样式文件中的“px”单位转换为“vw”单位
+- [vite-multiple-assets](https://github.com/nguyenbatranvan/vite-multiple-assets) - 增加对多个公共资产目录的支持。
+- [vite-create-production-server-plugin](https://github.com/jrtderonde/vite-create-production-server-plugin) - 构建完成后启动生产环境的 HTTP 服务。
+- [vite-plugin-eslint2](https://github.com/ModyQyW/vite-plugin-eslint2) - 同步/异步地运行 ESLint。
+- [vite-plugin-page-html](https://github.com/Marinerer/vite-plugins/tree/main/packages/page-html) - 多页通用模板插件，支持 `ejs` 模板语法。与 `vue-cli` 的页面配置类似。
+- [vite-plugin-vanilla](https://github.com/Marinerer/vite-plugins/tree/main/packages/vanilla) - Vanilla 多页面网页开发模式
+- [genaicode/vite-plugin](https://github.com/gtanczyk/genaicode/tree/master/src/vite-genaicode/) - 一款将人工智能编程助手嵌入应用程序用户界面的插件。
+- [vite-plugin-year](https://github.com/8hobbies/vite-plugin-year) - 在构建过程中将当前年份插入到 HTML 文件中。此功能可用于在 HTML 文件中添加版权年份。
+- [vite-plugin-llms](https://github.com/saschaseniuk/vite-plugin-llms) - 针对“llms.txt”规范的整合，该规范支持结合人工智能优化的内容与应用路径。
+- [module-federation/vite](https://github.com/module-federation/vite) - 实现了动态远程模块加载功能。
 
 #### Loaders
 
